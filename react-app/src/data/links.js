@@ -13,6 +13,8 @@ export const CATEGORIES = [
   "News & Media",
 ];
 
+export const AUDITOR_VENDOR = "Tyler Technologies (iasWorld)";
+
 export const LINKS = [
   // ---------- Government ----------
   { name: "Ashtabula County (Official Site)", category: "Government", subcategory: "County", url: "https://www.ashtabulacounty.us/", description: "Official Ashtabula County government website — departments, services, and news." },
