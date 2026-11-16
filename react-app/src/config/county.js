@@ -28,14 +28,14 @@ export const GITHUB_ACTIONS_URL = `${GITHUB_REPO_URL}/actions`;
 /**
  * Built-in copy of this county's apps, used until county-apps.json loads and
  * whenever it can't be reached (offline, hub down). Same shape as the feed.
- * The live feed wins when it differs. Snapshot: 2026-11-08.
+ * The live feed wins when it differs. Snapshot: 2026-11-16.
  */
 export const FALLBACK_APPS = [
   { label: "Elections", kind: "Elections", href: "https://mikecostarella.github.io/OhioElections/#/ashtabula" },
   { label: "Healthcare Access Map", kind: "Healthcare", href: "https://mikecostarella.github.io/AshtabulaCountyHealthAccess/" },
   { label: "Hydrants Map", kind: "Hydrants", href: "https://mikecostarella.github.io/AshtabulaCountyHydrants/" },
   { label: "Information", kind: "Information", href: "https://mikecostarella.github.io/AshtabulaCountyInformation/" },
-  { label: "Jurisdictions", kind: "Jurisdictions", href: "https://mikecostarella.github.io/AshtabulaCountyJurisdictions/" },
+  { label: "Jurisdictions", kind: "Jurisdictions", href: "https://mikecostarella.github.io/OhioJurisdictions/#/county/ashtabula" },
   { label: "Liquor Permits", kind: "Liquor Permits", href: "https://mikecostarella.github.io/OhioLiquorPermits/#/county/ashtabula" },
   { label: "Parcels Map", kind: "Parcels", href: "https://mikecostarella.github.io/AshtabulaCountyParcels/" },
   { label: "Voters", kind: "Voters", href: "https://mikecostarella.github.io/AshtabulaCountyVoters/" }
